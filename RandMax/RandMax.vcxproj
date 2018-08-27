@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{e819d5bd-1111-4b00-9f45-7c42a99cf4ff}</ProjectGuid>
-    <RootNamespace>DeclarationVersusDefinition</RootNamespace>
+    <ProjectGuid>{fde4173f-11c4-44a9-a77e-4a1acf5888a4}</ProjectGuid>
+    <RootNamespace>RandMax</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="A.cpp" />
-    <ClCompile Include="DeclarationVersusDefinition.cpp" />
-    <ClCompile Include="func.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="A.h" />
-    <ClInclude Include="B.h" />
-    <ClInclude Include="func.h" />
-    <ClInclude Include="func2.h" />
+    <ClCompile Include="RandMax.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

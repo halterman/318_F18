@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RandomPermute", "RandomPerm
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeclarationVersusDefinition", "DeclarationVersusDefinition\DeclarationVersusDefinition.vcxproj", "{E819D5BD-1111-4B00-9F45-7C42A99CF4FF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RandMax", "RandMax\RandMax.vcxproj", "{FDE4173F-11C4-44A9-A77E-4A1ACF5888A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{E819D5BD-1111-4B00-9F45-7C42A99CF4FF}.Release|x64.Build.0 = Release|x64
 		{E819D5BD-1111-4B00-9F45-7C42A99CF4FF}.Release|x86.ActiveCfg = Release|Win32
 		{E819D5BD-1111-4B00-9F45-7C42A99CF4FF}.Release|x86.Build.0 = Release|Win32
+		{FDE4173F-11C4-44A9-A77E-4A1ACF5888A4}.Debug|x64.ActiveCfg = Debug|x64
+		{FDE4173F-11C4-44A9-A77E-4A1ACF5888A4}.Debug|x64.Build.0 = Debug|x64
+		{FDE4173F-11C4-44A9-A77E-4A1ACF5888A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{FDE4173F-11C4-44A9-A77E-4A1ACF5888A4}.Debug|x86.Build.0 = Debug|Win32
+		{FDE4173F-11C4-44A9-A77E-4A1ACF5888A4}.Release|x64.ActiveCfg = Release|x64
+		{FDE4173F-11C4-44A9-A77E-4A1ACF5888A4}.Release|x64.Build.0 = Release|x64
+		{FDE4173F-11C4-44A9-A77E-4A1ACF5888A4}.Release|x86.ActiveCfg = Release|Win32
+		{FDE4173F-11C4-44A9-A77E-4A1ACF5888A4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

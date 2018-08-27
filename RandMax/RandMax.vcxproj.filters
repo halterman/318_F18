@@ -15,28 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DeclarationVersusDefinition.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="func.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="A.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="func.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="A.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="func2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="B.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
