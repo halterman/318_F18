@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WordSearchMaker", "WordSear
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewRandomTest", "NewRandomTest\NewRandomTest.vcxproj", "{5B44B4DE-7406-421C-995F-DD50CFFC847B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmartList", "SmartList\SmartList.vcxproj", "{4C0EE80E-36E8-41F6-B907-F175EDBFD9A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{5B44B4DE-7406-421C-995F-DD50CFFC847B}.Release|x64.Build.0 = Release|x64
 		{5B44B4DE-7406-421C-995F-DD50CFFC847B}.Release|x86.ActiveCfg = Release|Win32
 		{5B44B4DE-7406-421C-995F-DD50CFFC847B}.Release|x86.Build.0 = Release|Win32
+		{4C0EE80E-36E8-41F6-B907-F175EDBFD9A8}.Debug|x64.ActiveCfg = Debug|x64
+		{4C0EE80E-36E8-41F6-B907-F175EDBFD9A8}.Debug|x64.Build.0 = Debug|x64
+		{4C0EE80E-36E8-41F6-B907-F175EDBFD9A8}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C0EE80E-36E8-41F6-B907-F175EDBFD9A8}.Debug|x86.Build.0 = Debug|Win32
+		{4C0EE80E-36E8-41F6-B907-F175EDBFD9A8}.Release|x64.ActiveCfg = Release|x64
+		{4C0EE80E-36E8-41F6-B907-F175EDBFD9A8}.Release|x64.Build.0 = Release|x64
+		{4C0EE80E-36E8-41F6-B907-F175EDBFD9A8}.Release|x86.ActiveCfg = Release|Win32
+		{4C0EE80E-36E8-41F6-B907-F175EDBFD9A8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
