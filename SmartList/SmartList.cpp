@@ -18,6 +18,13 @@ class DumbList {
 	};
 	Node *head;  // Points to the first element in the list
 
+	void dump2(Node *p) const {
+		if (p) {
+			std::cout << p->data << ' ';
+			dump2(p->next);
+		}
+	}
+
 public:
 	DumbList() : head(nullptr) {
 		std::cout << "Creating a dumb list\n";
@@ -39,6 +46,10 @@ public:
 	void dump() const {
 		for (auto cursor = head; cursor; cursor = cursor->next) 
 			std::cout << cursor->data << ' ';
+		std::cout << '\n';
+	}
+	void dump2() const {
+		dump2(head);
 		std::cout << '\n';
 	}
 
@@ -91,6 +102,7 @@ void test_dumb_list() {
 	for (int i = 1; i < 6; i++)
 		lst.insert(10 * i);
 	lst.dump();
+	lst.dump2();
 } 
 
 void test_smart_list() {
