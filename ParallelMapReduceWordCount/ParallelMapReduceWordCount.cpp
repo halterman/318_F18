@@ -61,11 +61,13 @@ int main() {
 	vector<unordered_map<string, size_t>> map(v.size());
 
 	// The Map operation
-	parallel_transform(begin(v), end(v), begin(map), MapFunc());
+	MapFunc mapper;
+	parallel_transform(begin(v), end(v), begin(map), mapper);
 
 	// The Reduce operation 
+	ReduceFunc reducer;
 	unordered_map<string, size_t> result = parallel_reduce(
-		begin(map), end(map), unordered_map<string, size_t>(), ReduceFunc());
+		begin(map), end(map), unordered_map<string, size_t>(), reducer);
 
 	std::cout << "\"word1\" occurs " << result["word1"] << " times. \n";
 }
